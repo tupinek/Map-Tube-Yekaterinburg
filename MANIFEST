@@ -18,6 +18,7 @@ MANIFEST			This list of files
 META.yml
 README
 share/yekaterinburg-map.xml
+SIGNATURE
 t/Map-Tube-Yekaterinburg/00-use.t
 t/Map-Tube-Yekaterinburg/01-version.t
 t/Map-Tube-Yekaterinburg/02-pod_coverage.t
