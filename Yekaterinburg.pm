@@ -117,7 +117,6 @@ For more information about Yekaterinburg Map, click L<here|https://en.wikipedia.
 
  # Pragmas.
  use strict;
- use utf8;
  use warnings;
 
  # Modules.

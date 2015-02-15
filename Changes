@@ -1,5 +1,6 @@
 0.02
  - Add <?xml> header to XML document.
+ - Remove obsolete code from EXAMPLE1 section in doc.
  - Update copyright years to 2015.
 
 0.01 2014-12-21T09:24:58+01:00
