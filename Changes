@@ -1,4 +1,4 @@
-0.02
+0.02 2015-02-17T20:51:44+01:00
  - Add <?xml> header to XML document.
  - Add EXAMPLE3 section in doc.
  - Add get_lines() method to doc.
