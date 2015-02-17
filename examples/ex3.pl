@@ -25,4 +25,4 @@ $g->graph('Yekaterinburg.png');
 system "ls -l Yekaterinburg.png";
 
 # Output like:
-# TODO
+# -rw-r--r-- 1 skim skim 28866 Feb 17 20:42 Yekaterinburg.png
