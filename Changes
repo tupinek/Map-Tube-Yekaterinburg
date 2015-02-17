@@ -1,5 +1,6 @@
 0.02
  - Add <?xml> header to XML document.
+ - Add EXAMPLE3 section in doc.
  - Add get_lines() method to doc.
  - Add get_stations() method to doc.
  - Remove obsolete code from EXAMPLE1 section in doc.
