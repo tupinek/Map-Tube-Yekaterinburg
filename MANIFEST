@@ -25,7 +25,8 @@ t/Map-Tube-Yekaterinburg/00-use.t
 t/Map-Tube-Yekaterinburg/01-version.t
 t/Map-Tube-Yekaterinburg/02-pod_coverage.t
 t/Map-Tube-Yekaterinburg/03-pod.t
-t/Map-Tube-Yekaterinburg/04-get_shortest_route.t
-t/Map-Tube-Yekaterinburg/05-name.t
-t/Map-Tube-Yekaterinburg/06-xml.t
+t/Map-Tube-Yekaterinburg/04-map.t
+t/Map-Tube-Yekaterinburg/05-get_shortest_route.t
+t/Map-Tube-Yekaterinburg/06-name.t
+t/Map-Tube-Yekaterinburg/07-xml.t
 Yekaterinburg.pm
