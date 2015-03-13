@@ -14,17 +14,17 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 53052c29dc7ccb9ca4bf2a6020cc00bad044799c Changes
+SHA1 55ce87823681334db59466ae9cbb4f8c593e174f Changes
 SHA1 882221895a73bad18eb9f16a0ce523a968a932c1 LICENSE.artistic_2
 SHA1 507a10efa92555ddddfbe72be27964d9e3eef80f LICENSE.bsd
-SHA1 bac06198cb598f730a41c260b28fd141deceb589 MANIFEST
-SHA1 7fef209fe17882508530eae3318172fa164bf410 META.yml
-SHA1 9b1cc821c6fa87b99c8c668e65ee46fa119eeef0 Makefile.PL
-SHA1 e3a0033d0b1e6e1b0f7f0f6dd8a49dedbf5f5a4d README
-SHA1 f3ef38672e4276dc9ec2210fe522a938fa26a8d5 Yekaterinburg.pm
+SHA1 ebe49dd7fe345065d7316352e04f13086247a40e MANIFEST
+SHA1 691ad9b526998c71b75cc100e963e058a277637d META.yml
+SHA1 f0a0d4622ec38de58c537bd7ca2a9b006255856a Makefile.PL
+SHA1 ab907df42c5f378e65f46e0806cdd5c4cff6bf26 README
+SHA1 ac65324bf3a3b4cb47a157f414f4bd9933287396 Yekaterinburg.pm
 SHA1 594e1d4152ee562dbed3449e0da8bfea584f19c1 examples/ex1.pl
 SHA1 d9a35143ea4c163872447d9347b3b4cef2897b8c examples/ex2.pl
-SHA1 d7a8e0f0b417dbffb0bc8b637b5c1c29fea3eb56 examples/ex3.pl
+SHA1 acfe6cfe0a0f1d543a1f229da5bf112adabcbf2e examples/ex3.pl
 SHA1 dd90b4c11f4236b97d8f005123579621b95fc6c8 images/ex3.png
 SHA1 d2664c57b65686abbfbbe1e71229761625be4922 inc/Module/Install.pm
 SHA1 da41a8d9904f7b409b49a5f6c338d3eb305a2b4b inc/Module/Install/Base.pm
@@ -38,20 +38,21 @@ SHA1 65a1f09af1f4f9e47a98b6b45667c328b1b2f9c0 inc/Module/Install/Win32.pm
 SHA1 f191c49475b3f51775180cd4f7e41e3bdab7f85a inc/Module/Install/WriteAll.pm
 SHA1 8d31bdffe5c1ea9e3dd2befa3a8a59175b211f8f share/yekaterinburg-map.xml
 SHA1 694e3b9533ca50c0f98a3c46b11561090752f300 t/Map-Tube-Yekaterinburg/00-use.t
-SHA1 257e0bc9bd8adc108b178747fb129d93f6a630c1 t/Map-Tube-Yekaterinburg/01-version.t
+SHA1 abae7cdc652ee77e8ffef981744eb044c54ee606 t/Map-Tube-Yekaterinburg/01-version.t
 SHA1 1df489e8ad6f26f96fd7e06922522ab4ccd61043 t/Map-Tube-Yekaterinburg/02-pod_coverage.t
 SHA1 1de9669901410ac871668e28d72954e5fca463f9 t/Map-Tube-Yekaterinburg/03-pod.t
-SHA1 9a1fd1d6734be0dfed7d33903bcb699dbfc3b526 t/Map-Tube-Yekaterinburg/04-get_shortest_route.t
-SHA1 d70ef0c931d4ac21f44ec1a504054e7c680fd465 t/Map-Tube-Yekaterinburg/05-name.t
-SHA1 e3847e097462bb085a063944cdc5b51361c13fa9 t/Map-Tube-Yekaterinburg/06-xml.t
+SHA1 61d340ad69fb1ca1f135c995a3c6b62dcda17997 t/Map-Tube-Yekaterinburg/04-map.t
+SHA1 9a1fd1d6734be0dfed7d33903bcb699dbfc3b526 t/Map-Tube-Yekaterinburg/05-get_shortest_route.t
+SHA1 d70ef0c931d4ac21f44ec1a504054e7c680fd465 t/Map-Tube-Yekaterinburg/06-name.t
+SHA1 e3847e097462bb085a063944cdc5b51361c13fa9 t/Map-Tube-Yekaterinburg/07-xml.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.12 (GNU/Linux)
 
-iQEcBAEBAgAGBQJU45vSAAoJEJe+XXKaIuTlFm4IAK1sV8HfePD6U9+7JuN/wQ4O
-wna8akpHrKs0ZJmh9Iv3efHE2oDfoAZDpgFgHYx2lEukXs6o+XLwe+pZlgfHaT31
-FZzuFLg3OPxKmvDuoL8zENTR6AuW8KekoHzs6rg7IL8Kox2wgV4B4YaFd2InZvLL
-v2nRyYMdv/wD4VmZO7zA4NyBMyHZQIn+1ysoImjyH0A804kj0Fu4UDdl+bTAA5OF
-9JRTFyCXTGoaXveFBucDf88DPe32O4MvVgZjsrFQTSYgHeFEbCyhgfN6Otav51hV
-+XMvX2iOuoCoB7I4//6uFdk4ldsrM+I8zr/jApBJnvMhimvWNJhzDNp0jDObtAk=
-=HUPE
+iQEcBAEBAgAGBQJVAl6DAAoJEJe+XXKaIuTlKisH/1/d6kNaEhlyA0qcQF2ZpoLG
+X1RQhkm0h9eiDf2MsYhGjnhnzbO3mwGKZhmFyCzAeMzjlEFsSWG7v8dcnuI3sW8d
+1qt6JUKKLk7bRVOwC6wYL9Mwf03FyCtjyif27BYvRBlzASN1NHLAnOy+5nhIXS+g
+MaC1x8YmVIQpHATz17h/gcDOCDS9CLj5CM8RzUDC4xYehvGPwgPyhOfjDVcSxqs4
+ZefhKPI/aSOaSSboDzhQEouHE19TsDQREJJVif+Qu3DKXwQTes2TjB0BYIN2j5nk
+gDrTAqqRI89TH8lmf51MhwJKRn2tyrMnCyKbT0r7hoL9Dg0rk0G+nLlurH+mZ2c=
+=2lyG
 -----END PGP SIGNATURE-----
