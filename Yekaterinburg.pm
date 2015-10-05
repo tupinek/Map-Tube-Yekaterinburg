@@ -37,8 +37,10 @@ Map::Tube::Yekaterinburg - Interface to the Yekaterinburg Metro Map.
 
  use Map::Tube::Yekaterinburg;
  my $obj = Map::Tube::Yekaterinburg->new;
- my $lines_ar = $obj->get_lines;
  my $routes_ar = $obj->get_all_routes($from, $to);
+ my $line = $obj->get_line_by_id($line_id);
+ my $line = $obj->get_line_by_name($line_name);
+ my $lines_ar = $obj->get_lines;
  my $station = $obj->get_node_by_id($station_id);
  my $station = $obj->get_node_by_name($station_name);
  my $route = $obj->get_shortest_route($from, $to);
@@ -65,6 +67,16 @@ For more information about Yekaterinburg Map, click L<here|https://en.wikipedia.
 
  Get all routes from station to station.
  Returns reference to array with Map::Tube::Route objects.
+
+=item C<get_all_routes($from, $to)> [EXPERIMENTAL]
+
+ Get all routes from station to station.
+ Returns reference to array with Map::Tube::Route objects.
+
+=item C<get_line_by_id($line_id)>
+
+ Get line object defined by id.
+ Returns Map::Tube::Line object.
 
 =item C<get_lines()>
 
