@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- https://ru.wikipedia.org/wiki/Екатеринбургский_метрополитен -->
 <tube name="Екатеринбургский метрополитен">
   <lines>
     <line id="1" name="Первая линия" color="green"/>
   </lines>
-  <!-- https://ru.wikipedia.org/wiki/Екатеринбургский_метрополитен -->
   <stations>
     <station id="1-01" name="Проспект Космонавтов" line="Первая линия" link="1-02"/>
     <station id="1-02" name="Уралмаш" line="Первая линия" link="1-01,1-03"/>
